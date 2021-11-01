@@ -18,6 +18,9 @@ public class BookEntity extends BaseEntity{
     @Column (name = "description", columnDefinition = "TEXT")
     private String description;
 
+    @Column (name = "thumbnail")
+    private String thumbnail;
+
     @Column (name = "cover", columnDefinition = "VARCHAR(100)")
     private String cover;
 
